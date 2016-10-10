@@ -9,15 +9,9 @@ he can actually decreases the mean of the machine which gave more money previous
 is adversarial multi armed bandit. Now it is really hard to see which machine we should choose at each time to get better
 gains.
 
-In this folder, we will simulate this kind of situation, and then apply the Exp.3 algorithm to it. We will analyze it by 
-comparing the result with the one we get when we choose machine uniformly random each time (i.e  each machine could be chosen                                                                                           
-with probability 1/n). It turns out that this method is much better.
+In this folder, there is an animation (which is "main.py") made by pygame package to show the schemes of the opponet (the person who owns the 
+machines), and the strategy we used to try to defeat the opponent.
 
-In "Slot_Machine.ipynb", we designed a scheme(or stratey) for the opponent (the person who owns the machines), and run the Exp.3
-strategy.
-
-In "main.py", I used the pygame package to make an animation to show the schemes of the opponent and also the strategy to 
-try to defeat the opponent.
 
 "drawmachine.py", "exp3.py", "multiarm.py", "randomarm.py" are ingredients of the "main.py". "coin.wav" is used to display 
 the sound of gaining money.
